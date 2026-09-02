@@ -1,16 +1,37 @@
-# firebase_live_score_app
+# ⚽ Firebase Live Score App
 
-A new Flutter project.
+A real-time sports score application built with **Flutter** and **Firebase**. This project aims to deliver live match updates, scores, and sports data to users across multiple platforms with minimal latency.
 
-## Getting Started
+This repository serves as the foundation for a scalable sports application, leveraging Firebase's real-time capabilities for instant data synchronization.
 
-This project is a starting point for a Flutter application.
+## ✨ Key Features
 
-A few resources to get you started if this is your first Flutter project:
+*   **Real-Time Updates**: Powered by Firebase Firestore/Realtime Database for instant score changes.
+*   **Cross-Platform**: Single codebase supporting Android, iOS, Web, Windows, macOS, and Linux.
+*   **Firebase Integration**: Complete setup for authentication, database, and configuration.
+*   **Scalable Architecture**: Structured to support future features like match schedules, team stats, and user profiles.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Technology | Purpose |
+| :--- | :--- |
+| **Flutter** | UI Framework |
+| **Dart** | Programming Language |
+| **Firebase** | Backend (Database, Auth, Config) |
+| **C++ / CMake** | Native platform builds |
+
+## 📂 Project Structure
+
+```text
+firebase_live_score_app/
+├── android/          # Android native code & google-services.json
+├── assets/           # Images, fonts, and static assets
+├── ios/              # iOS native code & GoogleService-Info.plist
+├── lib/              # Main Flutter source code
+│   ├── models/       # Data models (Match, Team, Player)
+│   ├── screens/      # UI Screens
+│   ├── services/     # Firebase services & API calls
+│   └── main.dart     # Entry point
+├── firebase.json     # Firebase project configuration
+├── pubspec.yaml      # Dependencies
+└── README.md         # Documentation
